@@ -20,22 +20,29 @@ Install dependencies
 
 ```bash
   pnpm install
-  yarn install
-  npm install
 ```
+
+```bash
+  yarn install
+```
+
 
 Run tests
 
 ```bash
   pnpm test
+```
+
+```bash
   yarn test
-  npm run test
 ```
 
 Start the server
 
 ```bash
   pnpm dev
+```
+
+```bash
   yarn dev
-  npm run dev
 ```
