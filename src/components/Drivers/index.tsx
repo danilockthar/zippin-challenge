@@ -3,7 +3,14 @@ import { useContext, useEffect, useState } from "react";
 import "./index.css";
 import MarkersContext from "@lib/context";
 import { Select } from "@chakra-ui/react";
-import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
+import {
+    Tabs,
+    TabList,
+    TabPanels,
+    Tab,
+    TabPanel,
+    useToast,
+} from "@chakra-ui/react";
 import { Accordion } from "@chakra-ui/react";
 import { DriverAccordionItem } from "./DriverAccordionItem";
 
@@ -12,6 +19,7 @@ interface Props {
 }
 
 const DriversPanel = ({ selectedMarker }: Props) => {
+    const toast = useToast();
     const [tabIndex, setTabIndex] = useState(0);
     const [markedSelected, setMarkerSelected] = useState<SingleMarker | null>(
         null
@@ -38,6 +46,12 @@ const DriversPanel = ({ selectedMarker }: Props) => {
                 driverAssigned: { ...driver },
             });
             updateMarkers({ ...selectedMarker, driverAssigned: { ...driver } });
+            toast({
+                title: "Chofer asignado correctamente",
+                status: "success",
+                duration: 4000,
+                isClosable: true
+            });
         }
     };
 
