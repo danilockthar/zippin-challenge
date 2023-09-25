@@ -4,50 +4,19 @@ import { createContext, ReactNode, useState } from "react";
 import markersJSON from "./markers.json";
 import { ContextMarkers, Driver, Markers, SingleMarker } from "$types/index";
 
-export const MarkersContext: any = createContext<ContextMarkers>({
+export const MarkersContext = createContext<ContextMarkers>({
     markers: [],
     updateMarkers: (val) => val,
     drivers: [],
 });
 
-const driversData = [
-    {
-        name: "Dani",
-        id: 1,
-        color: "blue",
-        pointsAssigned: [],
-    },
-    {
-        name: "Lucho",
-        id: 2,
-        color: "red",
-        pointsAssigned: [],
-    },
-    {
-        name: "Pepe",
-        id: 3,
-        color: "pink",
-        pointsAssigned: [],
-    },
-    {
-        name: "Carlos",
-        id: 4,
-        color: "gold",
-        pointsAssigned: [],
-    },
-    {
-        name: "Teofilo",
-        id: 5,
-        color: "green",
-        pointsAssigned: [],
-    },
-];
+
 export const MarkersProvider = ({ children }: { children: ReactNode }) => {
     const [markers, setMarkers] = useState<Markers>(markersJSON);
     const [drivers, setDrivers] = useState<Array<Driver>>(driversData);
 
     const updateMarkers = (newValue: SingleMarker | null) => {
-        const updatedArray: any = markers.map((obj) => {
+        const updatedArray: Markers = markers.map((obj) => {
             if (obj.id === newValue?.id) {
                 return { ...obj, ...newValue };
             }
@@ -89,3 +58,36 @@ export const MarkersProvider = ({ children }: { children: ReactNode }) => {
 };
 
 export default MarkersContext;
+
+const driversData = [
+    {
+        name: "Dani",
+        id: 1,
+        color: "blue",
+        pointsAssigned: [],
+    },
+    {
+        name: "Lucho",
+        id: 2,
+        color: "red",
+        pointsAssigned: [],
+    },
+    {
+        name: "Pepe",
+        id: 3,
+        color: "pink",
+        pointsAssigned: [],
+    },
+    {
+        name: "Carlos",
+        id: 4,
+        color: "gold",
+        pointsAssigned: [],
+    },
+    {
+        name: "Teofilo",
+        id: 5,
+        color: "green",
+        pointsAssigned: [],
+    },
+];
