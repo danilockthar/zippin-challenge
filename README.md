@@ -21,7 +21,7 @@ Install dependencies
 ```bash
   pnpm install
 ```
-
+or
 ```bash
   yarn install
 ```
@@ -32,7 +32,7 @@ Run tests
 ```bash
   pnpm test
 ```
-
+or
 ```bash
   yarn test
 ```
@@ -42,7 +42,7 @@ Start the server
 ```bash
   pnpm dev
 ```
-
+or
 ```bash
   yarn dev
 ```
