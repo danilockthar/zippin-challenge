@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "position": {
+            "lat": -34.576763,
+            "lng": -58.419096
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 2,
+        "position": {
+            "lat": -34.562595,
+            "lng": -58.458662
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 3,
+        "position": {
+            "lat": -34.594252,
+            "lng": -58.398303
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 4,
+        "position": {
+            "lat": -34.63599,
+            "lng": -58.46193
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 5,
+        "position": {
+            "lat": -34.609375,
+            "lng": -58.403969
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 6,
+        "position": {
+            "lat": -34.609951,
+            "lng": -58.383216
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 7,
+        "position": {
+            "lat": -34.610239,
+            "lng": -58.361867
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 8,
+        "position": {
+            "lat": -34.511598,
+            "lng": -58.496001
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 9,
+        "position": {
+            "lat": -34.591683,
+            "lng": -58.377791
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 10,
+        "position": {
+            "lat": -34.562726,
+            "lng": -58.44859
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 11,
+        "position": {
+            "lat": -34.544925,
+            "lng": -58.474943
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 12,
+        "position": {
+            "lat": -34.570303,
+            "lng": -58.412355
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 13,
+        "position": {
+            "lat": -34.571383,
+            "lng": -58.370195
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 14,
+        "position": {
+            "lat": -34.575136,
+            "lng": -58.521881
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 15,
+        "position": {
+            "lat": -34.61534,
+            "lng": -58.490917
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 16,
+        "position": {
+            "lat": -34.578236,
+            "lng": -58.485788
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 144,
+        "position": {
+            "lat": -34.570334,
+            "lng": -58.481414
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 17,
+        "position": {
+            "lat": -34.546174,
+            "lng": -58.440994
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 18,
+        "position": {
+            "lat": -34.547395,
+            "lng": -58.47997
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 19,
+        "position": {
+            "lat": -34.536418,
+            "lng": -58.478269
+        },
+        "driverAssigned": null
+    },
+    {
+        "id": 20,
+        "position": {
+            "lat": -34.563482,
+            "lng": -58.442219
+        },
+        "driverAssigned": null
+    }
+]
